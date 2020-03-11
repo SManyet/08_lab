@@ -47,7 +47,6 @@ public:
     //constructors
     LinkedList(){
     head = nullptr;
-
     }
 
 };
