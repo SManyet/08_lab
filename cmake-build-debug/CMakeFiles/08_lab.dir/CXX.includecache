@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Luke/Documents/GitHub/08_lab/Item.h
+string
+-
+
+/Users/Luke/Documents/GitHub/08_lab/List.cpp
+Node.cpp
+/Users/Luke/Documents/GitHub/08_lab/Node.cpp
+
+/Users/Luke/Documents/GitHub/08_lab/Node.cpp
+
+/Users/Luke/Documents/GitHub/08_lab/main.cpp
+iostream
+-
+Item.h
+/Users/Luke/Documents/GitHub/08_lab/Item.h
+Node.cpp
+/Users/Luke/Documents/GitHub/08_lab/Node.cpp
+List.cpp
+/Users/Luke/Documents/GitHub/08_lab/List.cpp
+
