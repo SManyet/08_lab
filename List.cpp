@@ -1,6 +1,7 @@
 #ifndef LIST_H
 #define LIST_H
 #include "Node.cpp"
+#include <iostream>
 
 template <class T>
 class List {
@@ -103,6 +104,17 @@ public:
             newNode->prev = temp;
             length++;
         }
+    }
+
+    void display() {
+        Node<T>* temp = head;
+        while (temp != nullptr) {
+            *(temp->data).displayItem();
+            std::cout << "[]-v" << std::endl;
+            std::cout << "v--------" << std::endl;
+            temp = temp->next;
+        }
+        std::cout << "[nullptr]" << std::endl;
     }
 
     ~List() {
