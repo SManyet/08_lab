@@ -52,21 +52,21 @@ bool Item::available(Date desiredDate)
     //calculate leadDate
     //reuse variables of currentDate
     if ( (month == 1) || (month = 3) || (month = 5) || (month = 7) || (month = 8) || (month = 10) || (month = 12) ) {
-        if (day == 31) {
+        if ( (day + leadTime) > 31) {
             day = (leadTime + day) % 31;
             month = (month + 1) % 12;
         } else {
             day = leadTime + day;
         }
     } else if ( (month == 4) || (month = 6) || (month = 9) || (month = 11) ) {
-        if (day == 30) {
+        if ( (day + leadTime) > 30) {
             day = (leadTime + day) % 30;
             month = (month + 1) % 12;
         } else {
             day = leadTime + day;
         }
     } else { // month is 2
-        if (day == 28) {
+        if ( (day + leadTime) > 28) {
             day = (leadTime + day) % 28;
             month = (month + 1) % 12;
         } else {
