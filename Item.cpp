@@ -32,4 +32,7 @@ bool Item::inStock(Item * part)
         return true;
 }
 
+std::string Item::getSKU() {
+    return SKU;
+}
 // bool available(Date availKey) // implement after creating Date object
