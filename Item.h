@@ -5,6 +5,8 @@
 #ifndef INC_08_LAB_ITEM_H
 #define INC_08_LAB_ITEM_H
 #include <string>
+#include "Date.h"
+
 using namespace std;
 
 class Item {

@@ -3,6 +3,7 @@
 //
 
 #include "Item.h"
+#include "Date.h"
 
 Item::Item(string newSKU, string newDescription, double newPrice, string newUOM, int newQuantityOnHand) {
     SKU = newSKU;
@@ -31,5 +32,4 @@ bool Item::inStock(Item * part)
         return true;
 }
 
-bool available(Date availKey) // implement after creating Date object
-{}
+// bool available(Date availKey) // implement after creating Date object
