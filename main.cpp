@@ -1,7 +1,5 @@
 #include <iostream>
-#include "Item.h"
-#include "Node.h"
-#include "List.h"
+using namespace std;
 
 int main()
 { //we can copy the rest of this code for the most part.

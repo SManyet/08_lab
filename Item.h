@@ -19,13 +19,17 @@ private:
     int leadTime;
 
 public:
-    Item(string newSKU, string newDescription, double newPrice, string newUOM, int newQuantityOnHand = 0); //quantityOnHand is optional
+    Item(string newSKU, string newDescription, double newPrice, string newUOM, int newLeadTime = 3, int newQuantityOnHand = 0); //quantityOnHand is optional
     string getPartInfo(Item* part);
     double getPrice(Item* part);
     bool inStock(Item* part);
-    bool available(Date availKey); //implement data object
-    //TODO: overload >, <, and == operators
-};
+    bool available(Date desiredDate);
+    void displayItem();
 
+    // operator overloading:
+    bool operator < (Item const &obj);
+    bool operator > (Item const &obj);
+    bool operator == (Item const &obj);
+};
 
 #endif //INC_08_LAB_ITEM_H

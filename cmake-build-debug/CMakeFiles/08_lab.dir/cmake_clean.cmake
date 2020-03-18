@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "08_lab"
   "08_lab.pdb"
+  "CMakeFiles/08_lab.dir/Date.cpp.o"
   "CMakeFiles/08_lab.dir/Item.cpp.o"
+  "CMakeFiles/08_lab.dir/List.cpp.o"
+  "CMakeFiles/08_lab.dir/Node.cpp.o"
   "CMakeFiles/08_lab.dir/main.cpp.o"
 )
 

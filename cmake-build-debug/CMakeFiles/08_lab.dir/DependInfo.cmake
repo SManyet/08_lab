@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/Luke/Documents/GitHub/08_lab/Date.cpp" "/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles/08_lab.dir/Date.cpp.o"
   "/Users/Luke/Documents/GitHub/08_lab/Item.cpp" "/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles/08_lab.dir/Item.cpp.o"
+  "/Users/Luke/Documents/GitHub/08_lab/List.cpp" "/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles/08_lab.dir/List.cpp.o"
+  "/Users/Luke/Documents/GitHub/08_lab/Node.cpp" "/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles/08_lab.dir/Node.cpp.o"
   "/Users/Luke/Documents/GitHub/08_lab/main.cpp" "/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles/08_lab.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

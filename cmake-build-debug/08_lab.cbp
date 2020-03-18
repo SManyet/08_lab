@@ -80,16 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Luke/Documents/GitHub/08_lab/Date.cpp">
+			<Option target="08_lab"/>
+		</Unit>
+		<Unit filename="/Users/Luke/Documents/GitHub/08_lab/Date.h">
+			<Option target="08_lab"/>
+		</Unit>
 		<Unit filename="/Users/Luke/Documents/GitHub/08_lab/Item.cpp">
 			<Option target="08_lab"/>
 		</Unit>
 		<Unit filename="/Users/Luke/Documents/GitHub/08_lab/Item.h">
 			<Option target="08_lab"/>
 		</Unit>
-		<Unit filename="/Users/Luke/Documents/GitHub/08_lab/List.h">
+		<Unit filename="/Users/Luke/Documents/GitHub/08_lab/List.cpp">
 			<Option target="08_lab"/>
 		</Unit>
-		<Unit filename="/Users/Luke/Documents/GitHub/08_lab/Node.h">
+		<Unit filename="/Users/Luke/Documents/GitHub/08_lab/Node.cpp">
 			<Option target="08_lab"/>
 		</Unit>
 		<Unit filename="/Users/Luke/Documents/GitHub/08_lab/main.cpp">
