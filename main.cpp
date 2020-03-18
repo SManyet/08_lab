@@ -1,4 +1,9 @@
 #include <iostream>
+
+#include "Item.h"
+#include "Node.cpp"
+#include "List.cpp"
+
 using namespace std;
 
 int main()
@@ -13,4 +18,13 @@ int main()
     cout << "6)" << endl;
     cout << "7)" << endl;
 
+
+
+    List<Item> list = List<Item>();
+    for (int i = 0; i < 5; i++) {
+        Item* item = new Item("item"+to_string(i), "desc", i, to_string(i), i);
+        list.addItem(item);
+
+
+    }
 }

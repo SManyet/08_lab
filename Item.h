@@ -27,9 +27,9 @@ public:
     void displayItem();
 
     // operator overloading:
-    bool operator < (Item const &obj);
-    bool operator > (Item const &obj);
-    bool operator == (Item const &obj);
+    bool operator<(Item const &obj);
+    bool operator>(Item const &obj);
+    bool operator==(Item const &obj);
 };
 
 #endif //INC_08_LAB_ITEM_H

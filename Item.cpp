@@ -89,7 +89,7 @@ bool Item::available(Date desiredDate)
     }
 }
 
-bool Item::operator < (Item const &obj)
+bool Item::operator<(Item const &obj)
 {
     bool status;
     int cSKU = 0;
@@ -109,7 +109,7 @@ bool Item::operator < (Item const &obj)
     }
 }
 
-bool Item::operator > (Item const &obj)
+bool Item::operator>(Item const &obj)
 {
     bool status;
     int cSKU = 0;
@@ -129,7 +129,7 @@ bool Item::operator > (Item const &obj)
     }
 }
 
-bool Item::operator == (Item const &obj)
+bool Item::operator==(Item const &obj)
 {
     bool status;
     int cSKU = 0;
