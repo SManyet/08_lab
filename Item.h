@@ -24,6 +24,7 @@ public:
     double getPrice(Item* part);
     bool inStock(Item* part);
     bool available(Date availKey); //implement data object
+    string getSKU();
     //TODO: overload >, <, and == operators
 };
 
