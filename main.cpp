@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "Item.h"
 #include "Node.cpp"
 #include "List.cpp"
@@ -19,7 +20,7 @@ int main()
 
 
 
-    List<Item> list();
+    List<Item> list = List<Item>();
     for (int i = 0; i < 5; i++) {
         Item* item = new Item("item"+to_string(i), "desc", i, to_string(i), i);
         list.addItem(item);

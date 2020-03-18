@@ -70,9 +70,35 @@ CMakeFiles/08_lab.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/main.cpp -o CMakeFiles/08_lab.dir/main.cpp.s
 
+CMakeFiles/08_lab.dir/Node.cpp.o: CMakeFiles/08_lab.dir/flags.make
+CMakeFiles/08_lab.dir/Node.cpp.o: ../Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/08_lab.dir/Node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/Node.cpp.o -c /Users/Luke/Documents/GitHub/08_lab/Node.cpp
+
+CMakeFiles/08_lab.dir/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_lab.dir/Node.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/08_lab/Node.cpp > CMakeFiles/08_lab.dir/Node.cpp.i
+
+CMakeFiles/08_lab.dir/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/Node.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/Node.cpp -o CMakeFiles/08_lab.dir/Node.cpp.s
+
+CMakeFiles/08_lab.dir/List.cpp.o: CMakeFiles/08_lab.dir/flags.make
+CMakeFiles/08_lab.dir/List.cpp.o: ../List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/08_lab.dir/List.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/List.cpp.o -c /Users/Luke/Documents/GitHub/08_lab/List.cpp
+
+CMakeFiles/08_lab.dir/List.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_lab.dir/List.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/08_lab/List.cpp > CMakeFiles/08_lab.dir/List.cpp.i
+
+CMakeFiles/08_lab.dir/List.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/List.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/List.cpp -o CMakeFiles/08_lab.dir/List.cpp.s
+
 CMakeFiles/08_lab.dir/Item.cpp.o: CMakeFiles/08_lab.dir/flags.make
 CMakeFiles/08_lab.dir/Item.cpp.o: ../Item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/08_lab.dir/Item.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/08_lab.dir/Item.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/Item.cpp.o -c /Users/Luke/Documents/GitHub/08_lab/Item.cpp
 
 CMakeFiles/08_lab.dir/Item.cpp.i: cmake_force
@@ -83,19 +109,38 @@ CMakeFiles/08_lab.dir/Item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/Item.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/Item.cpp -o CMakeFiles/08_lab.dir/Item.cpp.s
 
+CMakeFiles/08_lab.dir/Date.cpp.o: CMakeFiles/08_lab.dir/flags.make
+CMakeFiles/08_lab.dir/Date.cpp.o: ../Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/08_lab.dir/Date.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/Date.cpp.o -c /Users/Luke/Documents/GitHub/08_lab/Date.cpp
+
+CMakeFiles/08_lab.dir/Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_lab.dir/Date.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/08_lab/Date.cpp > CMakeFiles/08_lab.dir/Date.cpp.i
+
+CMakeFiles/08_lab.dir/Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/Date.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/Date.cpp -o CMakeFiles/08_lab.dir/Date.cpp.s
+
 # Object files for target 08_lab
 08_lab_OBJECTS = \
 "CMakeFiles/08_lab.dir/main.cpp.o" \
-"CMakeFiles/08_lab.dir/Item.cpp.o"
+"CMakeFiles/08_lab.dir/Node.cpp.o" \
+"CMakeFiles/08_lab.dir/List.cpp.o" \
+"CMakeFiles/08_lab.dir/Item.cpp.o" \
+"CMakeFiles/08_lab.dir/Date.cpp.o"
 
 # External object files for target 08_lab
 08_lab_EXTERNAL_OBJECTS =
 
 08_lab: CMakeFiles/08_lab.dir/main.cpp.o
+08_lab: CMakeFiles/08_lab.dir/Node.cpp.o
+08_lab: CMakeFiles/08_lab.dir/List.cpp.o
 08_lab: CMakeFiles/08_lab.dir/Item.cpp.o
+08_lab: CMakeFiles/08_lab.dir/Date.cpp.o
 08_lab: CMakeFiles/08_lab.dir/build.make
 08_lab: CMakeFiles/08_lab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 08_lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 08_lab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/08_lab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
