@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Luke/Documents/GitHub/08_lab
+CMAKE_SOURCE_DIR = /Users/luke/Documents/GitHub/08_lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Luke/Documents/GitHub/08_lab/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/luke/Documents/GitHub/08_lab/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/08_lab.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/08_lab.dir/flags.make
 
 CMakeFiles/08_lab.dir/main.cpp.o: CMakeFiles/08_lab.dir/flags.make
 CMakeFiles/08_lab.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/08_lab.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/main.cpp.o -c /Users/Luke/Documents/GitHub/08_lab/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/08_lab.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/main.cpp.o -c /Users/luke/Documents/GitHub/08_lab/main.cpp
 
 CMakeFiles/08_lab.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_lab.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/08_lab/main.cpp > CMakeFiles/08_lab.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luke/Documents/GitHub/08_lab/main.cpp > CMakeFiles/08_lab.dir/main.cpp.i
 
 CMakeFiles/08_lab.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/main.cpp -o CMakeFiles/08_lab.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luke/Documents/GitHub/08_lab/main.cpp -o CMakeFiles/08_lab.dir/main.cpp.s
 
 CMakeFiles/08_lab.dir/Node.cpp.o: CMakeFiles/08_lab.dir/flags.make
 CMakeFiles/08_lab.dir/Node.cpp.o: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/08_lab.dir/Node.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/Node.cpp.o -c /Users/Luke/Documents/GitHub/08_lab/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/08_lab.dir/Node.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/Node.cpp.o -c /Users/luke/Documents/GitHub/08_lab/Node.cpp
 
 CMakeFiles/08_lab.dir/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_lab.dir/Node.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/08_lab/Node.cpp > CMakeFiles/08_lab.dir/Node.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luke/Documents/GitHub/08_lab/Node.cpp > CMakeFiles/08_lab.dir/Node.cpp.i
 
 CMakeFiles/08_lab.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/Node.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/Node.cpp -o CMakeFiles/08_lab.dir/Node.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luke/Documents/GitHub/08_lab/Node.cpp -o CMakeFiles/08_lab.dir/Node.cpp.s
 
 CMakeFiles/08_lab.dir/List.cpp.o: CMakeFiles/08_lab.dir/flags.make
 CMakeFiles/08_lab.dir/List.cpp.o: ../List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/08_lab.dir/List.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/List.cpp.o -c /Users/Luke/Documents/GitHub/08_lab/List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/08_lab.dir/List.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/List.cpp.o -c /Users/luke/Documents/GitHub/08_lab/List.cpp
 
 CMakeFiles/08_lab.dir/List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_lab.dir/List.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/08_lab/List.cpp > CMakeFiles/08_lab.dir/List.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luke/Documents/GitHub/08_lab/List.cpp > CMakeFiles/08_lab.dir/List.cpp.i
 
 CMakeFiles/08_lab.dir/List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/List.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/List.cpp -o CMakeFiles/08_lab.dir/List.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luke/Documents/GitHub/08_lab/List.cpp -o CMakeFiles/08_lab.dir/List.cpp.s
 
 CMakeFiles/08_lab.dir/Item.cpp.o: CMakeFiles/08_lab.dir/flags.make
 CMakeFiles/08_lab.dir/Item.cpp.o: ../Item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/08_lab.dir/Item.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/Item.cpp.o -c /Users/Luke/Documents/GitHub/08_lab/Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/08_lab.dir/Item.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/Item.cpp.o -c /Users/luke/Documents/GitHub/08_lab/Item.cpp
 
 CMakeFiles/08_lab.dir/Item.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_lab.dir/Item.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/08_lab/Item.cpp > CMakeFiles/08_lab.dir/Item.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luke/Documents/GitHub/08_lab/Item.cpp > CMakeFiles/08_lab.dir/Item.cpp.i
 
 CMakeFiles/08_lab.dir/Item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/Item.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/Item.cpp -o CMakeFiles/08_lab.dir/Item.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luke/Documents/GitHub/08_lab/Item.cpp -o CMakeFiles/08_lab.dir/Item.cpp.s
 
 CMakeFiles/08_lab.dir/Date.cpp.o: CMakeFiles/08_lab.dir/flags.make
 CMakeFiles/08_lab.dir/Date.cpp.o: ../Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/08_lab.dir/Date.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/Date.cpp.o -c /Users/Luke/Documents/GitHub/08_lab/Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/08_lab.dir/Date.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_lab.dir/Date.cpp.o -c /Users/luke/Documents/GitHub/08_lab/Date.cpp
 
 CMakeFiles/08_lab.dir/Date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_lab.dir/Date.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Luke/Documents/GitHub/08_lab/Date.cpp > CMakeFiles/08_lab.dir/Date.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luke/Documents/GitHub/08_lab/Date.cpp > CMakeFiles/08_lab.dir/Date.cpp.i
 
 CMakeFiles/08_lab.dir/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_lab.dir/Date.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Luke/Documents/GitHub/08_lab/Date.cpp -o CMakeFiles/08_lab.dir/Date.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luke/Documents/GitHub/08_lab/Date.cpp -o CMakeFiles/08_lab.dir/Date.cpp.s
 
 # Object files for target 08_lab
 08_lab_OBJECTS = \
@@ -140,7 +140,7 @@ CMakeFiles/08_lab.dir/Date.cpp.s: cmake_force
 08_lab: CMakeFiles/08_lab.dir/Date.cpp.o
 08_lab: CMakeFiles/08_lab.dir/build.make
 08_lab: CMakeFiles/08_lab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 08_lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 08_lab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/08_lab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/08_lab.dir/clean:
 .PHONY : CMakeFiles/08_lab.dir/clean
 
 CMakeFiles/08_lab.dir/depend:
-	cd /Users/Luke/Documents/GitHub/08_lab/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Luke/Documents/GitHub/08_lab /Users/Luke/Documents/GitHub/08_lab /Users/Luke/Documents/GitHub/08_lab/cmake-build-debug /Users/Luke/Documents/GitHub/08_lab/cmake-build-debug /Users/Luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles/08_lab.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/luke/Documents/GitHub/08_lab/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/luke/Documents/GitHub/08_lab /Users/luke/Documents/GitHub/08_lab /Users/luke/Documents/GitHub/08_lab/cmake-build-debug /Users/luke/Documents/GitHub/08_lab/cmake-build-debug /Users/luke/Documents/GitHub/08_lab/cmake-build-debug/CMakeFiles/08_lab.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/08_lab.dir/depend
 

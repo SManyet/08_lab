@@ -150,7 +150,5 @@ bool Item::operator==(Item const &obj)
 }
 
 void Item::displayItem() {
-    cout << "/////////////////////////////////////////////////////////";
-    cout << "SKU:" << SKU << ", " << "Price:" << price  << "Quantity:" << quantityOnHand << endl;
-    cout << "/////////////////////////////////////////////////////////";
+    cout << "SKU:" << SKU << ", " << "Price:" << price << ", " << "Quantity:" << quantityOnHand;
 }

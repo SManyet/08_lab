@@ -11,7 +11,7 @@ using namespace std;
 
 class Item {
 private:
-    string SKU;
+
     string description;
     double price;
     string UOM;
@@ -19,6 +19,7 @@ private:
     int leadTime;
 
 public:
+    string SKU;
     Item(string newSKU, string newDescription, double newPrice, string newUOM, int newLeadTime = 3, int newQuantityOnHand = 0); //quantityOnHand is optional
     string getPartInfo(Item* part);
     double getPrice(Item* part);
